@@ -1,0 +1,29 @@
+{
+  "name": "48-grupe-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "strings": "node --watch methods/strings.js",
+    "numbers": "node --watch methods/numbers.js",
+    "marksAverage": "node --watch functions/marksAverage.js",
+    "for": "node --watch ciklas/for.js",
+    "uzduotys": "node --watch kintamieji/uzduotys.js",
+    "if": "node --watch palyginimas/if.js",
+    "empty": "node --watch functions/empty.js",
+    "sum": "node --watch functions/sum.js",
+    "array": "node --watch kintamieji/array.js",
+    "boolean": "node --watch kintamieji/boolean.js",
+    "string": "node --watch kintamieji/string.js",
+    "number": "node --watch kintamieji/number.js",
+    "number-nodemon": "nodemon kintamieji/number.js",
+    "dev": "nodemon index.js", 
+    "fail": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": " https://github.com/Cizauskas",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
