@@ -33,3 +33,27 @@ const studens = c1+ c2 + c3 + c4 + c5;
 console.log(students);
 
 
+const vardas = "Johnny";
+const pavarde = "Depp";
+
+// Suraskime trumpesnį stringą
+const trumpesnisStringas = vardas.length < pavarde.length ? vardas : pavarde;
+
+// Spausdiname trumpesnį stringą
+console.log("Trumpesnis stringas:", trumpesnisStringas);
+
+
+
+const vardas = "Vardenis";
+const pavarde = "Pavardenis";
+const gimimoMetai = 1990;
+const siuMetai = 2024; // Galite pakeisti į aktualų metų skaičių
+
+// Paskaičiuokime amžių
+const amzius = siuMetai - gimimoMetai;
+
+// Sukurkime sakinį su gautais duomenimis
+const sakinys = "Aš esu " + vardas + " " + pavarde + ". Man yra " + amzius + " metai(ų).";
+
+// Spausdiname sakinį
+console.log(sakinys);
