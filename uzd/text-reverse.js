@@ -1,5 +1,4 @@
 
-
 function reverse(text) {
     let ats = '';
 
